@@ -1,4 +1,4 @@
-const timer = process.argv.slice(2); 
+const timer = process.argv.slice(2);
 timer.sort((a, b) => {return a-b});
 if (timer.length > 0) {
   timer.forEach(item => {
